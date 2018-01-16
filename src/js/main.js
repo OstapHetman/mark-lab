@@ -4,9 +4,13 @@ $('.dropdown').hover(function() {
 particlesJS.load('particles-js', 'assets/particles/particles.json', function() {
     console.log('callback - particles.js config loaded');
 });
+
 window.addEventListener("load", function() {
     let loadScreen = document.getElementById("load_screen");
-    document.body.removeChild(loadScreen);
+    $('#load_screen').fadeOut('slow', function() {
+        $("#load_screen").remove();
+    });
+
 });
 
 let item = document.getElementsByClassName("services-view")[0],

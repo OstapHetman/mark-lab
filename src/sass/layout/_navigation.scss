@@ -1,8 +1,23 @@
 #navigation {
-    padding-top: 35px;
+    // padding-top: 35px;
+    padding-top: 50px;
     margin-bottom: 0;
     z-index: 0;
+    .nav.navbar-nav {
+        &:first-child {
+            margin-left: 10vw;
+        }
+        &:nth-child(2) {
+            margin-left: 5vw;
+        }
+        &:nth-child(3) {
+            margin-left: 5vw;
+        }
+        display: flex;
+        flex-direction: column;
+    }
     .navbar-right {
+        margin-top: -1%;
         li {
             a {
                 margin-right: 0;
@@ -30,7 +45,7 @@
     }
     ul {
         &.dropdown-menu {
-            width: 305px;
+            width: 270px;
             padding: 30px 0px 30px 20px;
             a {
                 color: #2b323a;
@@ -41,9 +56,12 @@
         }
         li {
             a {
-                font-size: 1.5rem;
-                font-weight: 300;
-                color: rgba(255, 255, 255, 0.6);
+                padding-top: 0;
+                padding-bottom: 20px;
+                font-size: 1.6rem;
+                font-weight: bold;
+                // color: rgba(255, 255, 255, 0.6);
+                color: white;
                 margin-right: 45px;
                 &:hover {
                     background-color: unset;

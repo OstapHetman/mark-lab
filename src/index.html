@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mark-Lab</title>
+    <title>Интернет-Агентство полного цикла | Mark-Lab.Biz</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Latest compiled and minified FontAwesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- FavIcon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <!-- Main Style-->
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -33,45 +33,31 @@
     <nav class="navbar navbar-static-top" id="navigation">
         <div class="container">
             <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">О компании</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">О компании</a></li>
-                            <li><a href="#">Новости и статьи</a></li>
-                            <li><a href="#">Вакансии</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Услуги</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Верстка</a></li>
-                            <li><a href="#">Програмированние</a></li>
-                            <li><a href="#">E-MAIL</a></li>
-                            <li><a href="#">Wordpress</a></li>
-                            <li><a href="#">Реклама</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a href="#">Магазин ПО</a></li>
+                    <li><a href="#">Портфолио</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="http://mark-lab.biz/blog/">Блог</a></li>
                 </ul>
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Портфолио</a></li>
+                    <li><a href="#">Хостинг</a></li>
+                    <li><a href="#">Домены</a></li>
+                    <li><a href="#">FAQ</a></li>
                 </ul>
                 <ul class="nav navbar-nav">
                     <li><a href="#">Контакты</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#"><i class="fa fa-key" aria-hidden="true"></i> Личный кабинет</a></li>
+                    <li class="cabinet"><a href="http://mark-lab.biz/blog/wp-login.php?action=register"><i class="fa fa-key" aria-hidden="true"></i> Личный кабинет</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -88,8 +74,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="head-text">
-                    <h4>Наша работа — наша страсть. <br>Из всех возможностей и способов умело сочетаем всё, что нужно для создания вашего проекта.</h4>
+                <div class="col-md-12">
+                    <div class="head-text">
+                        <h4>Интернет-агентство полного цикла.<br>Разработаем быстрый, продающий, функциональный<br>сайт для Вашего бизнеса, и продвинем его.</h4>
+                    </div>
                 </div>
             </div>
 
@@ -99,14 +87,13 @@
                     <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 services-item">
                         <div class="sr-row front-end-bg">
                             <span class="numb-section">01</span>
-                            <div title="Верстка сайта" class="services-view">
+                            <div class="services-view">
                                 <div class="line-1"><i></i></div>
                                 <div class="line-2"><i></i></div>
                                 <div class="line-3"><i></i></div>
                                 <div class="line-4"><i></i></div>
-                                <div class="bg"></div>
-                                <p>Front-end<br> (Верстка)</p>
-                                <a href="front-end.html" class="view-more-btn">Подробнее</a>
+                                <div class="bg"> <a href="#" class="view-more-btn">Подробнее</a></div>
+                                <p>Разбработка<br>сайтов</p>
                             </div>
                         </div>
                     </div>
@@ -114,50 +101,19 @@
                     <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 services-item">
                         <div class="sr-row front-end-bg">
                             <span class="numb-section">02</span>
-                            <div title="Верстка сайта" class="services-view">
-                                <div class="line-1"><i></i></div>
-                                <div class="line-2"><i></i></div>
-                                <div class="line-3"><i></i></div>
-                                <div class="line-4"><i></i></div>
-                                <div class="bg"></div>
-                                <p>Front-end<br> (Верстка)</p>
-                                <a href="front-end.html" class="view-more-btn">Подробнее</a>
+                            <div class="services-view">
+                                <div class="bg"> <a href="#" class="view-more-btn">Подробнее</a></div>
+                                <p>Продвижение<br>сайтов</p>
                             </div>
                         </div>
                     </div>
-
-                    <!-- <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 services-item w438">
-                        <div class="sr-row back-end-bg">
-                            <span class="numb-section">02</span>
-                            <a href="#" title="Программирование сайта" class="services-view">
-                                <div class="line-1"><i></i></div>
-                                <div class="line-2"><i></i></div>
-                                <div class="line-3"><i></i></div>
-                                <div class="line-4"><i></i></div>
-                                <div class="bg"></div>
-                                <p>Back-end<br> (Программирование)</p>
-                                <ul class="prog-lang-list clearfix">
-                                    <li>Битрикс</li>
-                                    <li>WordPress</li>
-                                    <li>Laravel</li>
-                                    <li>PHP</li>
-                                </ul>
-                            </a>
-                        </div>
-                    </div> -->
-                    <!--/.services-item -->
 
                     <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 services-item">
                         <div class="sr-row front-end-bg">
                             <span class="numb-section">03</span>
-                            <div title="Верстка сайта" class="services-view">
-                                <div class="line-1"><i></i></div>
-                                <div class="line-2"><i></i></div>
-                                <div class="line-3"><i></i></div>
-                                <div class="line-4"><i></i></div>
-                                <div class="bg"></div>
-                                <p>Front-end<br> (Верстка)</p>
-                                <a href="front-end.html" class="view-more-btn">Подробнее</a>
+                            <div class="services-view">
+                                <div class="bg"><a href="#" class="view-more-btn">Подробнее</a></div>
+                                <p>Аутсорсинг<br>сайтов</p>
                             </div>
                         </div>
                     </div>
@@ -165,63 +121,21 @@
                     <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 services-item">
                         <div class="sr-row front-end-bg">
                             <span class="numb-section">04</span>
-                            <div title="Верстка сайта" class="services-view">
-
-                                <div class="bg"></div>
-                                <p>Front-end<br> (Верстка)</p>
-                                <a href="front-end.html" class="view-more-btn">Подробнее</a>
+                            <div class="services-view">
+                                <div class="bg"> <a href="#" class="view-more-btn">Подробнее</a></div>
+                                <p>Продающие<br>тексты </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 services-item">
                         <div class="sr-row front-end-bg">
                             <span class="numb-section">05</span>
-                            <div title="Верстка сайта" class="services-view">
-
-                                <div class="bg"></div>
-                                <p>Front-end<br> (Верстка)</p>
-                                <a href="front-end.html" class="view-more-btn">Подробнее</a>
+                            <div class="services-view">
+                                <div class="bg"> <a href="#" class="view-more-btn">Подробнее</a></div>
+                                <p>Аудит<br>сайтов</p>
                             </div>
                         </div>
                     </div>
-
-
-                    <!--/.services-item -->
-
-                    <!-- <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 services-item">
-                        <div class="row">
-                            <div class="col-xs-6 col-sm-12 col-md-12 col-lg-12">
-                                <div class="sr-row mob-apps-bg">
-                                    <span class="numb-section">04</span>
-
-                                    <a href="#" title="" class="services-view h87">
-                                        <div class="line-1"><i></i></div>
-                                        <div class="line-2"><i></i></div>
-                                        <div class="line-3"><i></i></div>
-                                        <div class="line-4"><i></i></div>
-                                        <div class="bg"></div>
-
-                                        <p>Моб. приложения</p>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-6 col-sm-12 col-md-12 col-lg-12">
-                                <div class="sr-row outsourcing-bg">
-                                    <span class="numb-section">05</span>
-                                    <a href="#" title="Аутсорсинг и аутстаффинг" class="services-view h87">
-                                        <div class="line-1"><i></i></div>
-                                        <div class="line-2"><i></i></div>
-                                        <div class="line-3"><i></i></div>
-                                        <div class="line-4"><i></i></div>
-                                        <div class="bg"></div>
-
-                                        <p>Аутсорсинг</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                     <!--/.services-item -->
                 </div>
             </div>
@@ -238,11 +152,6 @@
 
     </header>
     <!-- END HEADER -->
-
-    <section id="next">
-
-    </section>
-
     <!-- Latest compiled and minified JQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
@@ -251,7 +160,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     <!-- Main JavaScript File -->
     <script src="js/main.js"></script>
-
 </body>
 
 </html>

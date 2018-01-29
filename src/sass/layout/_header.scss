@@ -3,21 +3,21 @@ header#header {
     // padding-top: 100px;
     margin-top: -202px;
     padding-top: 200px;
-    min-height: 1000px;
+    min-height: 1050px;
     background-color: #11172b;
     .logo {
         padding: 40px 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         z-index: 5;
         img {
             max-width: 350px;
             z-index: 5;
+            display: block;
+            margin: 0 auto;
         }
     }
     .head-text {
         display: flex;
+        justify-content: center;
         z-index: 10;
         h4 {
             font-size: 42px;
@@ -79,84 +79,38 @@ header#header {
 }
 
 .services-section .services-item .sr-row.front-end-bg .services-view .bg {
-    background: url(../img/header/front-end-bg.png) center no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    transition: all 0.3s;
-    height: auto;
-    width: 100%;
     &:hover {
         transform: scale(1.2);
-        border: 1px solid #ed3832;
+        border: 1px solid #923636;
     }
+    &:hover .view-more-btn {
+        opacity: 1;
+    }
+}
+
+.services-section .services-item:nth-child(1) .bg {
+    background: url(../img/header/1.jpg) center no-repeat;
+    @include bg;
 }
 
 .services-section .services-item:nth-child(2) .bg {
-    background: url(../img/header/back-end-bg.png) center no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    transition: all 0.3s;
-    height: auto;
-    width: 100%;
-    &:hover {
-        transform: scale(1.2);
-    }
+    background: url(../img/header/2.jpg) center no-repeat;
+    @include bg;
 }
 
 .services-section .services-item:nth-child(3) .bg {
-    background: url(../img/header/e-mail-bg.png) center no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    transition: all 0.3s;
-    height: auto;
-    width: 100%;
-    &:hover {
-        transform: scale(1.2);
-    }
+    background: url(../img/header/3.jpg) center no-repeat;
+    @include bg;
 }
 
 .services-section .services-item:nth-child(4) .bg {
-    background: url(../img/header/mob-apps-bg.png) center no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    transition: all 0.3s;
-    height: auto;
-    width: 100%;
-    &:hover {
-        transform: scale(1.2);
-    }
+    background: url(../img/header/4.jpg) center no-repeat;
+    @include bg;
 }
 
-.services-section .services-item:nth-child() .bg {
-    background: url(../img/header/outsourcing-bg.png) center no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    transition: all 0.3s;
-    height: auto;
-    width: 100%;
-    &:hover {
-        transform: scale(1.2);
-    }
+.services-section .services-item:nth-child(5) .bg {
+    background: url(../img/header/5.jpg) center no-repeat;
+    @include bg;
 }
 
 .services-section {
@@ -168,20 +122,14 @@ header#header {
     height: 86px;
 }
 
-.services-section .services-item {
-    width: 20%;
-    &.w438 {
-        width: 40%;
-    }
-}
-
 .services-section .services-item .sr-row .numb-section {
     display: block;
     position: absolute;
-    left: 50%;
+    left: 47%;
     top: -30px;
     padding-bottom: 20px;
     font-family: 'Roboto-Thin', sans-serif;
+    text-align: center;
     font-size: 18px;
     line-height: 30px;
     font-weight: 300;
@@ -191,10 +139,10 @@ header#header {
         content: '';
         position: absolute;
         bottom: 0;
-        left: 0;
+        left: 9px;
         width: 2px;
         height: 20px;
-        background-color: #ed3832;
+        background-color: #923636;
     }
 }
 
@@ -202,35 +150,38 @@ header#header {
     position: relative;
     display: block;
     margin: 15px 0;
-    padding: 29px 20px 29px 30px;
+    padding-top: 20px;
     height: 204px;
     overflow: hidden;
     background-color: #36393c;
     z-index: 0;
     text-decoration: none;
     p {
-        position: relative;
+        display: flex;
+        justify-content: center;
         font-family: 'Roboto-Thin', sans-serif;
         font-size: 2.1rem;
         line-height: 30px;
         font-weight: 700;
         color: #e9e9e9;
+        text-align: center;
+        pointer-events: none;
     }
     .view-more-btn {
         position: relative;
-        top: 5.5vh;
-        left: 1vw;
+        top: 65%;
+        left: 27%;
         font-family: 'Roboto-Thin', sans-serif;
-        font-size: 1.8rem;
+        font-size: 1.3rem;
         line-height: 30px;
         font-weight: 700;
         color: #ffffff;
         border: 2px solid white;
         border-radius: 20px;
         padding: 4px 14px 5px 11px;
-        visibility: hidden;
         text-decoration: none;
-        transition: opacity 4s ease-out;
+        opacity: 0;
+        // visibility: hidden;
         &:hover {
             text-decoration: none;
         }
@@ -272,7 +223,7 @@ header#header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 130%;
+    height: 100%;
 }
 
 header {
@@ -284,7 +235,7 @@ header {
             a {
                 i {
                     color: white;
-                    background-color: #ed3832;
+                    background-color: #923636;
                     border-radius: 50%;
                     padding: 6px 11px;
                     font-size: 2.7rem;
@@ -363,5 +314,67 @@ header {
     }
     100% {
         transform: perspective(120px) rotateX() rotateY(-179.9deg);
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    header#header {
+        .head-text {
+            h4 {
+                font-size: 30px;
+                line-height: 43px;
+                br {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header#header {
+        .logo {
+            display: none;
+        }
+        .services-section {
+            .services-item {
+                margin-top: 10%;
+                .services-view {
+                    .bg {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center
+                    }
+                    .view-more-btn {
+                        position: static;
+                        margin-top: 100px;
+                        padding: 0px 14px 0px 11px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header#header {
+        .head-text {
+            h4 {
+                font-size: 22px;
+                line-height: 33px;
+                br {
+                    display: none;
+                }
+            }
+        }
+        .services-section {
+            padding-top: 10px;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .col-lg-2 {
+        width: 20% !important;
     }
 }

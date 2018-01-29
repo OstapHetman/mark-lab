@@ -1,0 +1,16 @@
+@mixin bg {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transition: all 0.3s;
+    height: auto;
+    width: 100%;
+    z-index: -1;
+    &:hover {
+        transform: scale(1.2);
+    }
+}

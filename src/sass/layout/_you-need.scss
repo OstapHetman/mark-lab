@@ -4,8 +4,9 @@ $underTitle: #acabab;
 $mainText: #11152d;
 #need {
     background-color: $bgColor;
-    min-height: 600px;
+    min-height: 650px;
     padding-top: 5.5rem;
+    @include angle(after, true);
     h2 {
         font-family: "Museo3";
         font-size: 5rem;

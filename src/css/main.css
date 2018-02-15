@@ -916,8 +916,24 @@ header .social-row {
 
 #need {
   background-color: #f6f4f4;
-  min-height: 600px;
-  padding-top: 5.5rem; }
+  min-height: 650px;
+  padding-top: 5.5rem;
+  position: relative;
+  z-index: 1; }
+  #need:after {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden; }
+  #need:after {
+    bottom: 0;
+    transform: skewY(1.5deg);
+    transform-origin: 0 100%; }
   #need h2 {
     font-family: "Museo3";
     font-size: 5rem;
@@ -950,6 +966,37 @@ header .social-row {
       border: 2px #11152d solid;
       border-radius: 25px;
       padding: 10px 15px 10px 15px; }
+
+#our-works {
+  min-height: 500px;
+  margin-top: 150px;
+  margin-bottom: 90px; }
+  #our-works .work-item {
+    font-family: "Museo3";
+    color: #11152d; }
+    #our-works .work-item h2 {
+      font-size: 11.5rem;
+      margin-top: -20px; }
+    #our-works .work-item h5 {
+      font-size: 4.6rem; }
+    #our-works .work-item.one {
+      min-height: 280px;
+      margin-top: 35px;
+      background: url(../img/works/oil.png) center no-repeat; }
+    #our-works .work-item.two {
+      min-height: 275px;
+      background: url(../img/works/cargo.png) center no-repeat; }
+    #our-works .work-item.three {
+      min-height: 175px;
+      margin-top: 30px;
+      background: url(../img/works/catcar.png) center no-repeat; }
+    #our-works .work-item.four {
+      min-height: 175px;
+      background: url(../img/works/catcar.png) center no-repeat; }
+    #our-works .work-item.five {
+      min-height: 275px;
+      margin-top: 38px;
+      background: url(../img/works/truck.png) center no-repeat; }
 
 #download {
   display: flex;

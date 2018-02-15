@@ -1,5 +1,48 @@
 $bgColor: #f6f4f4;
+$titleClr: #c22c28;
+$underTitle: #acabab;
+$mainText: #11152d;
 #need {
     background-color: $bgColor;
     min-height: 600px;
+    padding-top: 5.5rem;
+    h2 {
+        font-family: "Museo3";
+        font-size: 5rem;
+        color: $titleClr;
+        margin-bottom: 20px;
+    }
+    p {
+        font-family: "MuseoSansCyrl";
+        font-size: 2rem;
+        color: $underTitle;
+        margin: 0;
+        letter-spacing: 2px;
+    }
+    .text {
+        padding-top: 8.5rem;
+        h2 {
+            font-family: 'Mark-lab', sans-serif;
+            font-size: 6.7rem;
+            color: $mainText;
+        }
+        p {
+            font-family: "Museo1";
+            font-size: 1.6rem;
+            color: $mainText;
+            letter-spacing: 1px;
+            line-height: 1.6;
+        }
+    }
+    .button {
+        margin-top: 4rem;
+        a.more {
+            font-family: "Museo3";
+            font-size: 1.7rem;
+            color: $mainText;
+            border: 2px $mainText solid;
+            border-radius: 25px;
+            padding: 10px 15px 10px 15px;
+        }
+    }
 }

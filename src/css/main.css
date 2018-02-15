@@ -420,6 +420,10 @@ template {
   src: url("../font/MuseoSans/MuseoSansCyrl_1.otf") format("truetype"); }
 
 @font-face {
+  font-family: "Museo3";
+  src: url("../font/MuseoSans/MuseoSansCyrl_3.otf") format("truetype"); }
+
+@font-face {
   font-family: "MuseoSansCyrl";
   src: url("../font/MuseoSans/MuseoSansCyrl.otf") format("truetype"); }
 
@@ -912,7 +916,40 @@ header .social-row {
 
 #need {
   background-color: #f6f4f4;
-  min-height: 600px; }
+  min-height: 600px;
+  padding-top: 5.5rem; }
+  #need h2 {
+    font-family: "Museo3";
+    font-size: 5rem;
+    color: #c22c28;
+    margin-bottom: 20px; }
+  #need p {
+    font-family: "MuseoSansCyrl";
+    font-size: 2rem;
+    color: #acabab;
+    margin: 0;
+    letter-spacing: 2px; }
+  #need .text {
+    padding-top: 8.5rem; }
+    #need .text h2 {
+      font-family: 'Mark-lab', sans-serif;
+      font-size: 6.7rem;
+      color: #11152d; }
+    #need .text p {
+      font-family: "Museo1";
+      font-size: 1.6rem;
+      color: #11152d;
+      letter-spacing: 1px;
+      line-height: 1.6; }
+  #need .button {
+    margin-top: 4rem; }
+    #need .button a.more {
+      font-family: "Museo3";
+      font-size: 1.7rem;
+      color: #11152d;
+      border: 2px #11152d solid;
+      border-radius: 25px;
+      padding: 10px 15px 10px 15px; }
 
 #download {
   display: flex;

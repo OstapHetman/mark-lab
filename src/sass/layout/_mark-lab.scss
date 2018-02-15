@@ -1,0 +1,49 @@
+$titleColor: #c22c28;
+$numberColor: #11152d;
+$alsoTextColor: #9d9c9c;
+#mark-lab {
+    padding-top: 90px;
+    font-family: 'Mark-lab', sans-serif;
+    h2 {
+        font-size: 6.2rem;
+        color: $titleColor;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .blocks {
+        padding-top: 50px;
+    }
+    .number {
+        h2 {
+            font-size: 20rem;
+            color: $numberColor;
+        }
+    }
+    .text {
+        font-family: 'Museo', sans-serif;
+        text-align: center;
+        p {
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+    }
+    .also {
+        padding-bottom: 13rem;
+        padding-top: 12rem;
+        h2 {
+            color: $titleColor;
+            font-size: 7.5rem;
+            text-align: right;
+            margin-top: -7px;
+        }
+        p {
+            font-family: 'MuseoSansCyrl', sans-serif;
+            font-size: 1.5rem;
+            color: $alsoTextColor;
+            line-height: 1.8;
+            letter-spacing: 1px;
+            border-left: 2px #c6c7cd solid;
+            padding-left: 26px;
+        }
+    }
+}

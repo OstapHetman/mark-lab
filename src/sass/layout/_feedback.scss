@@ -1,0 +1,37 @@
+$feedbackBg: #f6f4f4;
+$titleClr: #11152d;
+$carouselBtn: #11152d;
+#feedback {
+    background-color: $feedbackBg;
+    border-top: 5px #e0e0e1 solid;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    font-family: 'Mark-lab', sans-serif;
+    h2 {
+        font-size: 5.7rem;
+        color: $titleClr;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 50px;
+    }
+    #feedback-carousel {
+        .carousel-control {
+            background-image: unset;
+            opacity: 1;
+            text-shadow: unset;
+            display: flex;
+            align-items: center;
+            .fa {
+                color: $carouselBtn;
+                font-size: 9rem;
+            }
+            &.right {
+                justify-content: flex-end;
+            }
+        }
+        .carousel-inner {
+            width: 85%;
+            margin: 0 auto;
+        }
+    }
+}

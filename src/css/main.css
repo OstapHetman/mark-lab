@@ -412,6 +412,10 @@ template {
   src: url("../font/MuseoSans/MuseoSansCyrl_3.otf") format("truetype"); }
 
 @font-face {
+  font-family: "Museo2";
+  src: url("../font/MuseoSans/MuseoSansCyrl_2.otf") format("truetype"); }
+
+@font-face {
   font-family: "MuseoSansCyrl";
   src: url("../font/MuseoSans/MuseoSansCyrl.otf") format("truetype"); }
 
@@ -905,6 +909,39 @@ header .social-row {
 #need {
   background-color: #f6f4f4;
   min-height: 600px; }
+
+footer {
+  font-family: "Museo"; }
+  footer h2 {
+    font-size: 2rem;
+    color: #10162b; }
+  footer ul {
+    list-style: none;
+    padding-left: 0;
+    font-family: "MuseoSansCyrl"; }
+    footer ul li {
+      line-height: 2.2; }
+      footer ul li a {
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: #a7a7a7; }
+  footer .bottom-footer {
+    display: flex;
+    align-items: center;
+    font-family: "MuseoSansCyrl";
+    font-size: 1.3rem;
+    background-color: #f6f4f4;
+    min-height: 115px; }
+    footer .bottom-footer p,
+    footer .bottom-footer a {
+      color: #6c6d75;
+      margin: 0; }
+    footer .bottom-footer a.database {
+      font-family: "Museo2";
+      background-color: #10162b;
+      color: #fff;
+      font-size: 2.2rem;
+      padding: 5px 15px 5px 15px; }
 
 /*================ 
     Media Query 

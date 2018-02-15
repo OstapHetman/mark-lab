@@ -44,6 +44,15 @@ $mainText: #11152d;
             border: 2px $mainText solid;
             border-radius: 25px;
             padding: 10px 15px 10px 15px;
+            transition: all 0.6s ease;
+            &:hover {
+                background-color: $mainText;
+                color: #fff;
+                text-decoration: none;
+            }
+            &:focus {
+                text-decoration: none;
+            }
         }
     }
 }

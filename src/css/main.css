@@ -965,7 +965,14 @@ header .social-row {
       color: #11152d;
       border: 2px #11152d solid;
       border-radius: 25px;
-      padding: 10px 15px 10px 15px; }
+      padding: 10px 15px 10px 15px;
+      transition: all 0.6s ease; }
+      #need .button a.more:hover {
+        background-color: #11152d;
+        color: #fff;
+        text-decoration: none; }
+      #need .button a.more:focus {
+        text-decoration: none; }
 
 #our-works {
   min-height: 500px;
@@ -1045,7 +1052,15 @@ header .social-row {
     display: block;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    transition: all 0.6s ease; }
+    #download a:hover {
+      color: #cd0b06 !important;
+      background-color: #fff;
+      border: 2px solid #cd0b06;
+      text-decoration: none; }
+    #download a:focus {
+      text-decoration: none; }
 
 footer {
   font-family: "Museo";
@@ -1062,7 +1077,12 @@ footer {
       footer ul li a {
         font-size: 1.3rem;
         text-decoration: none;
-        color: #a7a7a7; }
+        color: #a7a7a7;
+        transition: all 0.6s ease; }
+        footer ul li a:hover {
+          color: #10162b !important; }
+        footer ul li a:focus {
+          text-decoration: none; }
   footer article {
     background-color: #f6f4f4;
     margin-top: 40px; }
@@ -1081,7 +1101,15 @@ footer {
         background-color: #10162b;
         color: #fff;
         font-size: 2.2rem;
-        padding: 5px 15px 5px 15px; }
+        padding: 5px 15px 5px 15px;
+        transition: all 0.6s ease; }
+        footer article .bottom-footer a.database:hover {
+          color: #10162b !important;
+          background-color: unset;
+          border: 2px #10162b solid;
+          text-decoration: none; }
+        footer article .bottom-footer a.database:focus {
+          text-decoration: none; }
 
 /*================ 
     Media Query 

@@ -412,8 +412,12 @@ template {
   src: url("../font/MuseoSans/MuseoSansCyrl_3.otf") format("truetype"); }
 
 @font-face {
-  font-family: "Museo2";
-  src: url("../font/MuseoSans/MuseoSansCyrl_2.otf") format("truetype"); }
+  font-family: "Museo0";
+  src: url("../font/MuseoSans/MuseoSansCyrl_0.otf") format("truetype"); }
+
+@font-face {
+  font-family: "Museo1";
+  src: url("../font/MuseoSans/MuseoSansCyrl_1.otf") format("truetype"); }
 
 @font-face {
   font-family: "MuseoSansCyrl";
@@ -910,8 +914,31 @@ header .social-row {
   background-color: #f6f4f4;
   min-height: 600px; }
 
+#download {
+  display: flex;
+  align-items: center;
+  background-color: #10162b;
+  min-height: 17.5rem;
+  font-family: "Museo1"; }
+  #download .row {
+    display: flex;
+    align-items: center; }
+  #download h2 {
+    font-size: 3.8rem;
+    color: #fff; }
+  #download a {
+    font-family: "Museo0";
+    font-size: 3rem;
+    color: #fff;
+    background-color: #cd0b06;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
 footer {
-  font-family: "Museo"; }
+  font-family: "Museo";
+  padding-top: 50px; }
   footer h2 {
     font-size: 2rem;
     color: #10162b; }
@@ -925,23 +952,25 @@ footer {
         font-size: 1.3rem;
         text-decoration: none;
         color: #a7a7a7; }
-  footer .bottom-footer {
-    display: flex;
-    align-items: center;
-    font-family: "MuseoSansCyrl";
-    font-size: 1.3rem;
+  footer article {
     background-color: #f6f4f4;
-    min-height: 115px; }
-    footer .bottom-footer p,
-    footer .bottom-footer a {
-      color: #6c6d75;
-      margin: 0; }
-    footer .bottom-footer a.database {
-      font-family: "Museo2";
-      background-color: #10162b;
-      color: #fff;
-      font-size: 2.2rem;
-      padding: 5px 15px 5px 15px; }
+    margin-top: 40px; }
+    footer article .bottom-footer {
+      display: flex;
+      align-items: center;
+      font-family: "MuseoSansCyrl";
+      font-size: 1.3rem;
+      min-height: 115px; }
+      footer article .bottom-footer p,
+      footer article .bottom-footer a {
+        color: #6c6d75;
+        margin: 0; }
+      footer article .bottom-footer a.database {
+        font-family: "Museo1";
+        background-color: #10162b;
+        color: #fff;
+        font-size: 2.2rem;
+        padding: 5px 15px 5px 15px; }
 
 /*================ 
     Media Query 

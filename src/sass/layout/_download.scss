@@ -1,0 +1,27 @@
+$downloadBg: #10162b;
+$downloadBtn: #cd0b06;
+#download {
+    display: flex;
+    align-items: center;
+    background-color: $downloadBg;
+    min-height: 17.5rem;
+    font-family: "Museo1";
+    .row {
+        display: flex;
+        align-items: center;
+    }
+    h2 {
+        font-size: 3.8rem;
+        color: #fff;
+    }
+    a {
+        font-family: "Museo0";
+        font-size: 3rem;
+        color: #fff;
+        background-color: $downloadBtn;
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

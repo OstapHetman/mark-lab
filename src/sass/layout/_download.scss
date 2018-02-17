@@ -8,6 +8,7 @@ $downloadBtn: #cd0b06;
     font-family: "Museo1";
     .row {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
     }
     h2 {
@@ -32,6 +33,41 @@ $downloadBtn: #cd0b06;
         }
         &:focus {
             text-decoration: none;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #download {
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 0;
+        }
+        a {
+            font-size: 1.8rem;
+        }
+        padding-bottom: 0 !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #download {
+        text-align: center;
+        .col-sm-5 {
+            margin: 0 auto;
+        }
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:567px) and (max-width: 1199px) {
+    #download {
+        h2 {
+            font-size: 3rem;
+        }
+        a {
+            font-size: 2.4rem;
         }
     }
 }

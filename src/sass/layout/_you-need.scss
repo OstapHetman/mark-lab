@@ -56,3 +56,39 @@ $mainText: #11152d;
         }
     }
 }
+
+@media screen and (max-width: 576px) {
+    #need {
+        h2 {
+            font-size: 3.6rem;
+            text-align: center;
+        }
+        p {
+            font-size: 1.5rem;
+            text-align: center;
+            br {
+                display: none;
+            }
+        }
+        .text {
+            h2 {
+                font-size: 5rem;
+            }
+            p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #need {
+        .button {
+            text-align: center;
+        }
+        h2,
+        p {
+            text-align: center;
+        }
+    }
+}

@@ -35,3 +35,28 @@ $carouselBtn: #11152d;
         }
     }
 }
+
+@media screen and (max-width: 576px) {
+    #feedback {
+        h2 {
+            font-size: 3.6rem;
+        }
+        #feedback-carousel {
+            .carousel-control {
+                .fa {
+                    font-size: 4.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #feedback {
+        #feedback-carousel {
+            .item {
+                text-align: center;
+            }
+        }
+    }
+}

@@ -38,3 +38,15 @@ $mainText: #11152d;
         }
     }
 }
+
+@media screen and (max-width: 576px) {
+    #our-works {
+        .work-item {
+            h2,
+            h5 {
+                font-size: 3.6rem;
+                text-align: center;
+            }
+        }
+    }
+}

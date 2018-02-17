@@ -914,6 +914,25 @@ header .social-row {
       border-left: 2px #c6c7cd solid;
       padding-left: 26px; }
 
+@media screen and (max-width: 576px) {
+  #mark-lab h2 {
+    font-size: 3.6rem; }
+  #mark-lab .number h2 {
+    font-size: 8rem; }
+  #mark-lab .text p {
+    font-size: 1.4rem; }
+    #mark-lab .text p br {
+      display: none; }
+  #mark-lab .also h2 {
+    font-size: 3.6rem;
+    padding-bottom: 2rem; } }
+
+@media screen and (max-width: 992px) {
+  #mark-lab .also h2 {
+    text-align: center; }
+    #mark-lab .also h2 br {
+      display: none; } }
+
 #need {
   background-color: #f6f4f4;
   min-height: 650px;
@@ -974,6 +993,27 @@ header .social-row {
       #need .button a.more:focus {
         text-decoration: none; }
 
+@media screen and (max-width: 576px) {
+  #need h2 {
+    font-size: 3.6rem;
+    text-align: center; }
+  #need p {
+    font-size: 1.5rem;
+    text-align: center; }
+    #need p br {
+      display: none; }
+  #need .text h2 {
+    font-size: 5rem; }
+  #need .text p {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 767px) {
+  #need .button {
+    text-align: center; }
+  #need h2,
+  #need p {
+    text-align: center; } }
+
 #our-works {
   min-height: 500px;
   margin-top: 150px;
@@ -1005,6 +1045,12 @@ header .social-row {
       margin-top: 38px;
       background: url(../img/works/truck.png) center no-repeat; }
 
+@media screen and (max-width: 576px) {
+  #our-works .work-item h2,
+  #our-works .work-item h5 {
+    font-size: 3.6rem;
+    text-align: center; } }
+
 #feedback {
   background-color: #f6f4f4;
   border-top: 5px #e0e0e1 solid;
@@ -1032,6 +1078,16 @@ header .social-row {
     width: 85%;
     margin: 0 auto; }
 
+@media screen and (max-width: 576px) {
+  #feedback h2 {
+    font-size: 3.6rem; }
+  #feedback #feedback-carousel .carousel-control .fa {
+    font-size: 4.5rem; } }
+
+@media screen and (max-width: 992px) {
+  #feedback #feedback-carousel .item {
+    text-align: center; } }
+
 #download {
   display: flex;
   align-items: center;
@@ -1040,6 +1096,7 @@ header .social-row {
   font-family: "Museo1"; }
   #download .row {
     display: flex;
+    flex-wrap: wrap;
     align-items: center; }
   #download h2 {
     font-size: 3.8rem;
@@ -1061,6 +1118,29 @@ header .social-row {
       text-decoration: none; }
     #download a:focus {
       text-decoration: none; }
+
+@media screen and (max-width: 576px) {
+  #download {
+    padding-bottom: 0 !important; }
+    #download h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-top: 0; }
+    #download a {
+      font-size: 1.8rem; } }
+
+@media screen and (max-width: 991px) {
+  #download {
+    text-align: center;
+    padding-bottom: 2rem; }
+    #download .col-sm-5 {
+      margin: 0 auto; } }
+
+@media screen and (min-width: 567px) and (max-width: 1199px) {
+  #download h2 {
+    font-size: 3rem; }
+  #download a {
+    font-size: 2.4rem; } }
 
 footer {
   font-family: "Museo";
@@ -1089,6 +1169,7 @@ footer {
     footer article .bottom-footer {
       display: flex;
       align-items: center;
+      flex-wrap: wrap;
       font-family: "MuseoSansCyrl";
       font-size: 1.3rem;
       min-height: 115px; }
@@ -1110,6 +1191,18 @@ footer {
           text-decoration: none; }
         footer article .bottom-footer a.database:focus {
           text-decoration: none; }
+
+@media screen and (max-width: 576px) {
+  footer article .bottom-footer a.database {
+    font-size: 1.4rem; } }
+
+@media screen and (max-width: 992px) {
+  footer article .bottom-footer {
+    text-align: center; } }
+
+@media screen and (min-width: 567px) and (max-width: 1199px) {
+  footer article .bottom-footer a.database {
+    font-size: 1.4rem; } }
 
 /*================ 
     Media Query 

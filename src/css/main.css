@@ -851,19 +851,21 @@ header .social-row {
     header#header .head-text h4 br {
       display: none; } }
 
-@media screen and (max-width: 768px) {
-  header#header .logo {
-    display: none; }
-  header#header .services-section .services-item {
-    margin-top: 10%; }
-    header#header .services-section .services-item .services-view .bg {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-    header#header .services-section .services-item .services-view .view-more-btn {
-      position: static;
-      margin-top: 100px;
-      padding: 0px 14px 0px 11px; } }
+@media screen and (max-width: 1199px) {
+  header#header {
+    padding-bottom: 2.5rem; }
+    header#header .logo {
+      display: none; }
+    header#header .services-section .services-item {
+      margin-top: 10%; }
+      header#header .services-section .services-item .services-view .bg {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      header#header .services-section .services-item .services-view .view-more-btn {
+        position: static;
+        margin-top: 100px;
+        padding: 0px 14px 0px 11px; } }
 
 @media screen and (max-width: 576px) {
   header#header .head-text h4 {
@@ -935,7 +937,7 @@ header .social-row {
 
 #need {
   background-color: #f6f4f4;
-  min-height: 650px;
+  padding-bottom: 5.5rem;
   padding-top: 5.5rem;
   position: relative;
   z-index: 1; }
@@ -1050,6 +1052,31 @@ header .social-row {
   #our-works .work-item h5 {
     font-size: 3.6rem;
     text-align: center; } }
+
+@media screen and (min-width: 577px) and (max-width: 1199px) {
+  #our-works .work-item h2 {
+    font-size: 9rem; }
+  #our-works .work-item h5 {
+    font-size: 3.8rem; } }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #our-works .work-item.one {
+    margin-top: 70px; }
+  #our-works .work-item.four {
+    margin-top: 30px; }
+  #our-works .work-item.five {
+    margin-top: 30px; } }
+
+@media screen and (max-width: 767px) {
+  #our-works h2,
+  #our-works h5 {
+    text-align: center; }
+  #our-works .work-item.two {
+    margin-top: 30px; }
+  #our-works .work-item.four {
+    margin-top: 30px; }
+  #our-works .work-item.five {
+    margin-top: 30px; } }
 
 #feedback {
   background-color: #f6f4f4;

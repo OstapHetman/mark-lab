@@ -50,3 +50,52 @@ $mainText: #11152d;
         }
     }
 }
+
+@media screen and (min-width: 577px) and (max-width: 1199px) {
+    #our-works {
+        .work-item {
+            h2 {
+                font-size: 9rem;
+            }
+            h5 {
+                font-size: 3.8rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #our-works {
+        .work-item {
+            &.one {
+                margin-top: 70px;
+            }
+            &.four {
+                margin-top: 30px;
+            }
+            &.five {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #our-works {
+        h2,
+        h5 {
+            text-align: center;
+        }
+        .work-item {
+            &.two {
+                margin-top: 30px;
+            }
+            &.four {
+                margin-top: 30px;
+            }
+            &.five {
+                margin-top: 30px;
+            }
+        }
+    }
+}

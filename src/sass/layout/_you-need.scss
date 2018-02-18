@@ -4,7 +4,7 @@ $underTitle: #acabab;
 $mainText: #11152d;
 #need {
     background-color: $bgColor;
-    min-height: 650px;
+    padding-bottom: 5.5rem;
     padding-top: 5.5rem;
     @include angle(after, true);
     h2 {

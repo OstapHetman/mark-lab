@@ -331,8 +331,9 @@ header {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1199px) {
     header#header {
+        padding-bottom: 2.5rem;
         .logo {
             display: none;
         }
